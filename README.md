@@ -1,7 +1,7 @@
 # TPLink Authentication Bypass
 TP-Link Cloud API endpoints were lack of authentication mechanizm actually. To add yourself as a user, only thing you need is device token. And any unauthorized user has the ability of getting the device token by requesting to the `cgi/getTokenc` endpoint of the router.
 
-[Update] 2021-12-23: The vulnerability has been fixed by the tp-link team. [Here](https://static.tp-link.com/upload/beta/2022/202201/20220111/Archer_VR400V2_0.4.0_0.9.1_up_boot(211223)_2021-12-23_21.02.22.zip) is the newest firmware to fix, for Archer VR400 V2 
+[Update] 2021-12-23: The vulnerability has been fixed by the tp-link team. Here (`https://static.tp-link.com/upload/beta/2022/202201/20220111/Archer_VR400V2_0.4.0_0.9.1_up_boot(211223)_2021-12-23_21.02.22.zip`) is the newest firmware to fix, for Archer VR400 V2 
 
 ## Usage
 1) Register to the tplink cloud service over there https://www.tplinkcloud.com/register.php and note the email and password that you registered.
