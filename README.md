@@ -6,7 +6,7 @@ TP-Link Cloud API endpoints were lack of authentication mechanizm actually. To a
 ## Usage
 1) Register to the tplink cloud service over there https://www.tplinkcloud.com/register.php and note the email and password that you registered.
 2) Run the command `python3 exploit.py <host> <your_email_address>` by replacing `<host>` and `<your_email_address>`.
-3) Now you must be able to login to the device directly with your credentials. Or you can use tplink tether software to control the device.
+3) Now you must be able to login to the device directly with your credentials. Or you can use tplink tether software to control the device remotely.
 
 ## Supported/Compatible Devices
 Actually tested on **Archer VR400 V2** but **may be** working on other tplink cloud supported devices:
