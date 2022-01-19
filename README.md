@@ -3,6 +3,11 @@ TP-Link Cloud API endpoints were lack of authentication mechanizm actually. To a
 
 [Update] 2022-01-11: The vulnerability has been fixed by the tp-link team. Here (`https://static.tp-link.com/upload/beta/2022/202201/20220111/Archer_VR400V2_0.4.0_0.9.1_up_boot(211223)_2021-12-23_21.02.22.zip`) is the newest firmware to fix, for Archer VR400 V2 
 
+![POC 1](./images/1.png)
+![POC 1](./images/2.png)
+![POC 1](./images/3.png)
+![POC 1](./images/4.png)
+
 ## Usage
 1) Register to the tplink cloud service over there https://www.tplinkcloud.com/register.php and note the email and password that you registered.
 2) Run the command `python3 exploit.py <host> <your_email_address>` by replacing `<host>` and `<your_email_address>`.
